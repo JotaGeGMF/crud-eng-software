@@ -1,0 +1,24 @@
+.container-direito{
+    background: url("../assets/background.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex: 2;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+.container-esquerda{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+header div img{
+    width: 200px;
+}
