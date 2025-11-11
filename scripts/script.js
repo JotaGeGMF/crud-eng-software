@@ -1,0 +1,5 @@
+const formulario = document.getElementById("login-form")
+const email = document.getElementById("email_input")
+const senha = document.getElementById("password_input")
+const lembrarCheckbox = document.getElementById("checkbox_input")
+const botaoenviar = document.getElementById("submit_btn")
