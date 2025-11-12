@@ -1,10 +1,12 @@
 @import url(global.css);
+
+/* body - ESTRUTURA GERAL */
 body{
     font-family: "Poppins", sans-serif;
     background-color: #262d29;
     min-height: 100vh;
 }
-
+/* HEADER (LOGO E H1) */
 
 header div{
     display: flex;
@@ -25,11 +27,12 @@ header div img{
 }
 
 
+/*FORMULÁRIO CADASTRO */
 .form-container{
     display: flex;
     flex-direction: column;
 
-    width: 100%;
+    width: 90%;
     max-width: 400px;
     padding: 2rem;
 
@@ -61,29 +64,38 @@ input{
     width: 100%;
 
     border-radius: 12px;
-    border: none; 
+    border: none;
 }
 
 button{
     padding: 0.8rem 1rem;
     width: 100%;
 
-    background-color: var(--cor-primaria);
-    color: white;
-
     border: none;
-    border-radius: 10px;
+    border-radius: 12px;
+
+    background-color: var(--cor-primaria);
+    color: #fff;
 
     font-size: 1rem;
     font-weight: 700;
 
-    transition: background 0.4s ease;
+    transition:  background 0.4s ease;
 }
 
 button:hover{
     background-color: var(--cor-primaria-hover);
     cursor: pointer;
 }
+
+a{
+    text-decoration: none;
+    color: var(--cor-primaria);
+}
+
+/*
+footer
+*/
 
 footer{
     margin-top: auto;
@@ -96,3 +108,4 @@ footer{
     padding: 1.5rem 1rem;
     font-size: 0.9rem;
 }
+

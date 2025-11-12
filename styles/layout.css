@@ -1,47 +1,29 @@
 .container{
     display: flex;
-    height: 100vh;
+    flex-direction: row;
+    min-height: 100vh;
 }
 
-.conteudo-esquerda{
+.container-esquerda{
     display: flex;
     flex-direction: column;
     flex: 1;
-    min-height: 100vh;
 
-    align-items: center;
+    align-items: center;   
+    justify-content: center; 
+    padding: 1rem;
 }
-
-.conteudo-direita{
+.container-direita{
     display: flex;
     flex: 2;
 }
 
 
-#login-form{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 80px;
-}
-
-#login-form div{
-    display: flex;
-    flex-direction: column;
-}
-
-.logo-container{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-
-    margin-bottom: 80px;
-    margin-top: 80px;
-}
-
-.conteudo-direita{
-    background-image: url("../assets/background.jpg");
+/*
+Padronizar imagem direita
+*/
+.container-direita{
+    background: url("../assets/background.jpg");
     background-size: cover;
     background-position: center;
 }
-

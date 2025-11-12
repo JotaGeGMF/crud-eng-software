@@ -4,25 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabalho Formulário - CRUD</title>
-    <script src="../scripts/script.js"></script>
-    <link rel="stylesheet" href="../styles/style.css">
+    <script src="../scripts/script.js" defer></script>
+    <link rel="stylesheet" href="../styles/login.css">
+    <link rel="shortcut icon" href="../assets/icon.png" type="image/x-icon">
 </head>
 <body>
     <div class="container">
-        <div class="conteudo-esquerda">
+        <div class="container-esquerda">
             <header class="logo-container">
-                <img src="../assets/16875.png" alt="" width="150px">
-                <h1>Login</h1>
+                <div>
+                    <img src="../assets/16875.png" alt="" width="150px">
+                    <h1>Login</h1>
+                </div>
             </header>
             <main>
-                <form id="login-form">
-                    <div>
+                <form class="form-container">
+                    <div class="input-box">
                         <label for="email">Email:</label>
                         <input type="email" name="email" id="email_input" placeholder="Digite seu email">
                     </div>
         
-                    <div>
-                        <label for="password">Senha</label>
+                    <div class="input-box">
+                        <label for="password">Senha:</label>
                         <input type="password" value="" placeholder="Digite sua senha" required id="password_input">
                     </div>
                     
@@ -39,7 +42,7 @@
                 <p>Copyright &copy; 2025 - Equipe 1</p>
             </footer>
         </div>        
-        <div class="conteudo-direita">
+        <div class="container-direita">
 
         </div>
     </div>
